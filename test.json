@@ -1,0 +1,255 @@
+{
+  "id": "BP 07-520",
+  "name": "BP07-520ED SD70ACe Coolant Pressure Sensor Replacement on a Hot Engine",
+  "details": {
+  "code": null,
+        "description": "sdfghj[pl",
+        "documentType": {
+            "selected": {
+                "key": "doc-ft",
+                "value": "FT - Field Test"
+            }
+        },
+        "tags": [
+            "fiihoj",
+            "gsesyfu",
+            "jokpp",
+            "hoj",
+            "hijkpk"
+        ],
+        "authorName": "EMDUser",
+        "version": "1.0",
+        "stateType": {
+            "key": "lv",
+            "value": "Live"
+        },
+        "createDate": "2015-06-06T19:27:25.071Z",
+        "modifiedDate": "2015-06-06T19:27:49.051Z",
+        "sectionComments": [],
+        "procedureComments": []
+  },
+  "steps": [
+    {
+      "id": null,
+      "version": null,
+      "name": "Sequence Of Job Steps [Recommended Safe Action]",
+      "type": "HEADER",
+      "details": "<h3>Sequence Of Job Steps [Recommended Safe Action]</h3>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 1",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 1</h3><p>Job Briefing. Complete a risk/task assessment following local policy.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 2",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 2</h3><p>Place Blue Flag Protection and Derails and/or Lock Switches per local procedures. Isolate Locomotive, Apply Parking Brake and Shutdown Engine. Center reverser. <em><strong>[Prevent coupling into by another Locomotive, proper body position and proper hand protection.]</strong></em></p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 3",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 3</h3><p>Before replacement of a coolant pressure sensor, follow the steps in ‘BP07-086 Sensor EMDEC Trouble Shooting’ to verify that the pressure sensor is faulty and needs to be replaced.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 4",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 4</h3><p>In order to SAFELY perform this task, the cooling temperature of the system <strong>MUST be lowered to 120 F (49C) or lower.</strong></p><ul><li>This can be accomplished by running the Cooling Fan Self-Test while the engine is running until them temperature drops below 120F (49C).</li></ul></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 5",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 5</h3><p>Once the unit is properly locked out and secured, verify and/or perform the following actions prior to starting the Field Test steps:</p><ol class=\"lower-alpha\"><li>Ensure reverser is centered</li><li>Locomotive is isolated</li><li>Parking brake is applied</li><li>Engine is shutdown</li><li>All circuit breakers are turned off in the proper order (all within the cab and the Electrical Locker</li><li>Battery knife switch is opened and isolated. <em><strong>Ensure proper hand protection is used.</strong></em></li></ol></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 6",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 6</h3><p>Ensure that the coolant has drained out of the radiators and that the coolant sight glass is full.</p><div class=\"reading-note\"><strong>Note:</strong> This may take a few minutes for the water to drain out of the radiators.</div></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 9",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 9</h3><p><u><strong>COOLANT PRESSURE ‘ENGINE IN’ SENSOR REPLACEMENT </strong></u></p><p><strong>WARNING:</strong> The ‘Engine In’ sensor is under pressure. The Radiator Vent Handle must be open and the proper PPE must be worn to change this sensor.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 10",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 10</h3><p>Disconnect the ‘engine in’ sensor plug from the engine sensor harness.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 12",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 12</h3><p>Have the replacement coolant pressure sensor ready with thread sealant on sensor threads.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 13",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 13</h3><p>Unplug the ‘engine in” sensor and using a standard 1-1/16 open end wrench.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 14",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 14</h3><p>Install the ‘engine in’ sensor.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 16",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 16</h3><p><u><strong>COOLANT PRESSURE ‘ENGINE OUT’ SENSOR REPLACEMENT</strong></u></p><p><strong>WARNING:</strong> The water must be drained out of the radiators before the ‘Engine Out’ sensor is replaced.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 18",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 18</h3><p>Disconnect the ‘engine out’ sensor plug from the engine sensor harness.</p></div>"
+    },
+    {
+            "id": null,
+            "version": null,
+            "name": "Running Checks And Inspections",
+            "type": "HEADER",
+            "details": "<h3>Running Checks And Inspections</h3> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">"
+        },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 19",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 19</h3><p>Have the replacement coolant pressure sensor ready with thread sealant on sensor threads.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 20",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 20</h3><p>Install the ‘engine out’ sensor.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 22",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 22</h3><p>Lower and latch shut the engine gull wind doors.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 23",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 23</h3><p><u><strong>AFTER SENSOR REPLACEMENT</strong></u></p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 24",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 24</h3><p>Close the radiator vent handle.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 25",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 25</h3><p>Top the unit up with coolant.</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 26",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 26</h3><p>At this point you will need to:</p><ul><li>Close battery knife switch</li><li>Close all circuit breakers</li></ul><p>Start the Engine</p></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 27",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 27</h3><p>Monitor the coolant sensor pressure in load test to make sure it works correctly. Monitor the WPEGILP and WPEGOTP signals in every throttle position to ensure the sensor is changing with each throttle position change.
+	  </p><table class=\"table-tight table\">
+	  <thead>
+	  <tr>
+	  <th>Table 1: EM2000 Signals to Monitor EM2000 Signal</th>
+	  
+	  </tr>
+	  </thead>
+	  <tbody>
+	  <tr>
+	  <td>WPEgILP</td>
+	  <td>Water Pressure Engine-In Left bank PSI. This feedback originates at EMDEC’s Coolant Pressure-LB sensor. Pressure is monitored between the jacket water pump outlet and the engine.</td><td>6 psi (42 KPa)</td><td>60-75 psi (420-525 KPa)</td>
+	  </tr>
+	  <tr>
+	  <td>WPEgOtP</td>
+	  <td>Water Pressure Engine-Out PSI. This feedback originates at EMDEC’s Coolant Pressure-Engine- Out / pump-in sensor. Pressure is monitored between the engine outlet and the radiators.</td><td>4 psi (28 KPa)</td><td>25-35 psi (175-245 KPa)
+	  </td>
+	  </tr>
+	  </tbody>
+	  </table></div>"
+    },
+    {
+      "id": null,
+      "version": null,
+      "name": "Step 28",
+      "type": "STEP",
+      "details": "<div class=\"reading-wrapper\"><h3>Step 28</h3><p>Verify there are no water leaks at the sensors.</p></div>"
+    },
+    {
+    	"id": null,
+        "version": null,
+        "name": "Running Checks And Inspections",
+        "type": "HEADER",
+        "details": "<h3>Text Image Text Image</h3>
+        <p>Monitor the coolant sensor pressure in load test to make sure it works correctly. Monitor the WPEGILP and WPEGOTP signals in every throttle position to ensure the sensor is changing with each throttle position change.
+	    </p> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">
+        <p>Monitor the coolant sensor pressure in load test to make sure it works correctly. Monitor the WPEGILP and WPEGOTP signals in every throttle position to ensure the sensor is changing with each throttle position change.
+	    </p>
+	    <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\testimg.jpeg\">"
+	},
+	{
+    	"id": null,
+        "version": null,
+        "name": "Running Checks And Inspections",
+        "type": "HEADER",
+        "details": "<h3>Image Image Text</h3>
+        <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\testimg.jpeg\">
+         <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">
+        <p>Monitor the coolant sensor pressure in load test to make sure it works correctly. Monitor the WPEGILP and WPEGOTP signals in every throttle position to ensure the sensor is changing with each throttle position change.
+	    </p>
+	    "
+        },
+        {
+    	"id": null,
+        "version": null,
+        "name": "Running Checks And Inspections",
+        "type": "HEADER",
+        "details": "<h3>Image Image Text Image</h3> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">
+	    <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\testimg.jpeg\">
+	    <p>Monitor the coolant sensor pressure in load test to make sure it works correctly. Monitor the WPEGILP and WPEGOTP signals in every throttle position to ensure the sensor is changing with each throttle position change.
+	    </p>
+	    <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">"
+        }
+  ]
+}

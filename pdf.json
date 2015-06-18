@@ -1,0 +1,244 @@
+{
+    "id": "BP01 - 015",
+    "name": "BP01-015 CCOP Mechanical Troubleshooting",
+    "details": {
+        "code": null,
+        "description": "sdfghj[pl",
+        "documentType": {
+            "selected": {
+                "key": "doc-ft",
+                "value": "FT - Field Test"
+            }
+        },
+        "tags": [
+            "fiihoj",
+            "gsesyfu",
+            "jokpp",
+            "hoj",
+            "hijkpk"
+        ],
+        "authorName": "EMDUser",
+        "version": "1.0",
+        "stateType": {
+            "key": "lv",
+            "value": "Live"
+        },
+        "createDate": "2015-06-06T19:27:25.071Z",
+        "modifiedDate": "2015-06-06T19:27:49.051Z",
+        "sectionComments": [],
+        "procedureComments": []
+    },
+    "steps": [
+        {
+            "id": null,
+            "version": null,
+            "name": "Sequence Of Job Steps  [Recommended Safe Action]",
+            "type": "HEADER",
+            "details": "<h3>Sequence Of Job Steps  [Recommended Safe Action]</h3>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 1",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 1</h3><p>Job Briefing.</p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 2",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 2</h3><p>Place Blue Flag Protection and Derails and/or Lock Switches per local procedures. Isolate Locomotive, Apply Parking Brake and Shutdown Engine. Center reverser. <em><strong>[Prevent coupling into by another Locomotive, proper body position and proper hand protection.]</strong></em></p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Possible engine problems",
+            "type": "HEADER",
+            "details": "<h3>Possible engine problems</h3>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 1",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 1</h3><p>Check oil level. High oil can cause a shutdown due to foaming action. Report findings.</p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 2",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 2</h3><p>Apply a 20 psi pressure test cooling system (squeeze), perform a complete air box and crankcase inspection , check all the following components. (<em><strong>Ensure all working on unit are aware you are barring engine over</strong></em>)</p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 3",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 3</h3><p>Inspect for cracked or excessively wet piston crowns. <strong>(<em>Use proper body positioning</em>)</strong></p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 4",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 4</h3><p>Inspect for excessively scored / scuffed piston and liners. <em><strong>(Use proper body positioning)</strong></em></p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 5",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 5</h3><p>Inspect for chipped, broken or excessively worn piston rings. <em><strong>(Use proper body positioning.)</strong></em></p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 6",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 6</h3><p>Inspect for cracked or broken lower liner skirts. <em><strong>(Use proper body positioning)</strong></em></p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 7",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 7</h3><p>Inspect for loose or broken injector crab studs.</p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 8",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 8</h3><p>Inspect for overheated crankshaft bearings or distress.</p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 9",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 9</h3><p>Ensure all crab studs are secure. (Hammer test <strong>NUTS</strong>) <em><strong>(Check tool condition)</strong></em></p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 10",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 10</h3><p>Ensure all oil pan to crankcase bolts are in place and are secured. <em><strong>(Use proper body positioning.)</strong></em></p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 11",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 11</h3><p>Inspect for defective top deck cover, seals or broken and missing latches. <em><strong>(Pay close attention to head positioning)</strong></em></p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Running Checks And Inspections",
+            "type": "HEADER",
+            "details": "<h3>Running Checks And Inspections</h3> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\"><p>If unit continues to trip CCOP (positive pressure) or is a repeat failure, with no defects found during the above inspection. The air box should be flooded with water using specially made air box cover. This procedure will check defective lower liner insert, seals and oil pan to crankcase bolts. In the event the above procedure passes, to check for cracked turbo scroll, pressurize the crankcase with air adapter, check at the turbocharger for escaping from the crankcase.</p>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 12",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 12</h3><p>Check the date of the CCOP device if the date is 2 years or older replace the device.</p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Possible oil separator / eductor problems",
+            "type": "HEADER",
+            "details": "<h3>Possible oil separator / eductor problems</h3>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 1",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 1</h3><p>Remove and ensure the eductor tube is correctly applied. Check the eductor tube for carbon blocking the angled end of the eductor tube which projects into the exhaust stack riser. Clean eductor tube and oil separator screen, apply new gaskets. <em><strong>(Watch pinch points)</strong></em></p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 2",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 2</h3><p>Inspect for proper application of orifice and clean if needed</p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 3",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 3</h3><p>Ensure air assist line and related hardware is open and clear of blockage. Apply shop air to line for thorough leak test.</p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Running checks and inspections (ensure oil level is not overfilled)",
+            "type": "HEADER",
+            "details": "<h3>Running checks and inspections (ensure oil level is not overfilled)</h3>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 1",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 1</h3><p>Inspect and test for proper operation of Engine Protector Device</p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 2",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 2</h3><p>Inspect top deck for excessive smoke, unusual noise or odor. If experiencing CCOP and excessive smoke is found in the top decks, check for leaks past exhaust valve stems and injectors. This condition will show up as wisps of smoke at the valve stems and/or injectors. Smoke in the top decks may be from a cracked piston. Crack the test cocks open to test for compression. This test can also be performed when dead using the test cock adapter to air test the cylinders and observing for air past the rings and/or piston. <em><strong>(Ensure correct body positioning and watch for pinch points)</strong></em></p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 3",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 3</h3><p>Load -test and record the following readings in throttle #8. The following practices must be followed during locomotive load box testing in order to minimize &amp; eliminate employees’ exposure to the locomotive engine block in case of power assembly failure and crankcase explosion:</p><ul><li>All engine compartment doors must be closed and latched during load box.</li><li>When load box testing SD40’s use manometer with a length of vacuum hose adequate to hang meter at cab for readings.</li><li>Employees working together during load box testing must be aware of each others whereabouts at all times.</li><li>Also note employees must wear double hearing protection during load box testing.</li><li>When water pump pressure readings are required, 2 employees must be present for testing, with 1 at the control stand and 1 at the start up station. Again this will eliminate the need for an employee to pass the engine block during load box.</li></ul></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 4",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 4</h3><p><strong>Load Test unit for a minimum of 45 minutes. If unit is equipped with QEG, ensure a manometer reading is taken as well as the readings on the QEG MMI screen.</strong></p><p>      Vacuum:______________      QEG MMI Vacuum:______________________</p><p>Horsepower ______________    RB water pump ________    LB water pump __________</p><p>Expansion tank__________</p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 5",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 5</h3><p>If vacuum reading is below 3”, replace Accessory drive (felt) seal at front end of engine (p/n 8055158) per BP01-025. <em><strong>(Use proper body positioning and watch pinch points)</strong></em></p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Step 6",
+            "type": "STEP",
+            "details": "<div class=\"reading-wrapper\"><h3>Step 6</h3><p>If unit continues to trip CCOP (positive pressure) or is a repeat failure, with no defects found during the above inspection. The air box should be flooded with water using specially made air box cover. This procedure will check defective lower liner insert, seals and oil pan to crankcase bolts. In the event the above procedure passes, to check for cracked turbo scroll, pressurize the crankcase with air adapter, check at the turbocharger for escaping from the crankcase.</p></div>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Running Checks And Inspections",
+            "type": "HEADER",
+            "details": "<h3>Running Checks And Inspections</h3> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">><p>If unit continues to trip CCOP (positive pressure) or is a repeat failure, with no defects found during the above inspection. The air box should be flooded with water using specially made air box cover. This procedure will check defective lower liner insert, seals and oil pan to crankcase bolts. In the event the above procedure passes, to check for cracked turbo scroll, pressurize the crankcase with air adapter, check at the turbocharger for escaping from the crankcase.</p>"
+        },
+        {
+            "id": null,
+            "version": null,
+            "name": "Running Checks And Inspections",
+            "type": "HEADER",
+            "details": "<h3>Running Checks And Inspections</h3> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">><p>If unit continues to trip CCOP (positive pressure) or is a repeat failure, with no defects found during the above inspection. The air box should be flooded with water using specially made air box cover. This procedure will check defective lower liner insert, seals and oil pan to crankcase bolts. In the event the above procedure passes, to check for cracked turbo scroll, pressurize the crankcase with air adapter, check at the turbocharger for escaping from the crankcase.</p>"
+        }
+       
+    ]
+}
