@@ -12,13 +12,18 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import com.itextpdf.text.BaseColor;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.Element;
 import com.itextpdf.text.Image;
+import com.itextpdf.text.PageSize;
+import com.itextpdf.text.Phrase;
+import com.itextpdf.text.Rectangle;
+import com.itextpdf.text.pdf.ColumnText;
+import com.itextpdf.text.pdf.PdfContentByte;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.tool.xml.XMLWorkerHelper;
-
-
 
 public class PdfConverter {
 
@@ -47,6 +52,24 @@ public class PdfConverter {
 		return procedure;
 	}
 
+	// Function to create header and footer
+	public void onEndPage(PdfWriter writer, Document document) {
+		PdfContentByte canvas = writer.getDirectContent();
+		Rectangle rect = writer.getBoxSize("art");
+		rect.setBorder(Rectangle.BOX);
+		rect.setBorderWidth(50); // a width of 5 user units
+		rect.setBorderColor(BaseColor.BLACK); // a red border
+		rect.setUseVariableBorders(true); // the full width will be visible
+		canvas.rectangle(rect);
+		// ColumnText.showTextAligned(writer.getDirectContent(),
+		// Element.ALIGN_RIGHT, new Phrase("My static header text"),
+		// rect.getRight(), rect.getTop(), 0);
+		ColumnText.showTextAligned(writer.getDirectContent(),
+				Element.ALIGN_CENTER, new Phrase(String.format("page %d", 1)),
+				(rect.getLeft() + rect.getRight()) / 2, rect.getBottom() - 18,
+				0);
+	}
+
 	public void createPdf() throws DocumentException, IOException,
 			ParseException, com.lowagie.text.DocumentException {
 		Procedure procedure = createProcedure();
@@ -54,13 +77,25 @@ public class PdfConverter {
 				new File("generatedPDF.pdf")));
 		System.out.println("Generating the PDF..");
 
-		Document doc = new Document();
+		Document doc = new Document(PageSize.A4, 120, 54, 54, 54);
 		StringBuilder stepString = new StringBuilder();
 		stepString.append("<h1>" + procedure.getName() + "</h1>");
 		FileOutputStream fos = new FileOutputStream(
 				new File("generatedPDF.pdf"));
 		PdfWriter pdfWriter = PdfWriter.getInstance(doc, fos);
+		Rectangle footer = new Rectangle(125, 25, 560, 800);
+		pdfWriter.setBoxSize("footer", footer);
+		Rectangle header = new Rectangle(175, 25, 560, 805);
+		pdfWriter.setBoxSize("header", header);
+
+		HeaderFooterPageEvent event = new HeaderFooterPageEvent();
+		pdfWriter.setPageEvent(event);
+
 		InputStream is;
+
+		// Adding Metadata properties
+		PdfConverter.addMetaData(doc, procedure);
+
 		doc.open();
 		List<Steps> steps = procedure.getSteps();
 
@@ -98,14 +133,23 @@ public class PdfConverter {
 			} else {
 				is = new ByteArrayInputStream(stepString.toString().getBytes());
 				XMLWorkerHelper.getInstance().parseXHtml(pdfWriter, doc, is);
-
+				doc.newPage();
 				stepString.delete(0, stepString.length());
+
 			}
 		}
-		doc.newPage();
+
 		System.out
 				.println("PDF generation complete. Please check the output folder.");
 		doc.close();
 		out.close();
+	}
+
+	// iText allows to add metadata to the PDF which can be viewed in your Adobe
+	// Reader
+	// under File -> Properties
+	private static void addMetaData(Document document, Procedure procedure) {
+		document.addTitle(procedure.getName());
+		document.addAuthor(procedure.getDetails().getAuthorName());
 	}
 }

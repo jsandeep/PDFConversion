@@ -132,7 +132,7 @@
             "version": null,
             "name": "Running Checks And Inspections",
             "type": "HEADER",
-            "details": "<h3>Running Checks And Inspections</h3> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">"
+            "details": "<h3>Running Checks And Inspections</h3> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\testimg.jpeg\">"
         },
     {
       "id": null,
@@ -183,73 +183,33 @@
       "type": "STEP",
       "details": "<div class=\"reading-wrapper\"><h3>Step 26</h3><p>At this point you will need to:</p><ul><li>Close battery knife switch</li><li>Close all circuit breakers</li></ul><p>Start the Engine</p></div>"
     },
+    
     {
       "id": null,
       "version": null,
       "name": "Step 27",
       "type": "STEP",
-      "details": "<div class=\"reading-wrapper\"><h3>Step 27</h3><p>Monitor the coolant sensor pressure in load test to make sure it works correctly. Monitor the WPEGILP and WPEGOTP signals in every throttle position to ensure the sensor is changing with each throttle position change.
-	  </p><table class=\"table-tight table\">
-	  <thead>
-	  <tr>
-	  <th>Table 1: EM2000 Signals to Monitor EM2000 Signal</th>
-	  
-	  </tr>
-	  </thead>
-	  <tbody>
-	  <tr>
-	  <td>WPEgILP</td>
-	  <td>Water Pressure Engine-In Left bank PSI. This feedback originates at EMDEC’s Coolant Pressure-LB sensor. Pressure is monitored between the jacket water pump outlet and the engine.</td><td>6 psi (42 KPa)</td><td>60-75 psi (420-525 KPa)</td>
-	  </tr>
-	  <tr>
-	  <td>WPEgOtP</td>
-	  <td>Water Pressure Engine-Out PSI. This feedback originates at EMDEC’s Coolant Pressure-Engine- Out / pump-in sensor. Pressure is monitored between the engine outlet and the radiators.</td><td>4 psi (28 KPa)</td><td>25-35 psi (175-245 KPa)
-	  </td>
-	  </tr>
-	  </tbody>
-	  </table></div>"
-    },
-    {
-      "id": null,
-      "version": null,
-      "name": "Step 28",
-      "type": "STEP",
-      "details": "<div class=\"reading-wrapper\"><h3>Step 28</h3><p>Verify there are no water leaks at the sensors.</p></div>"
+      "details": "<div class=\"reading-wrapper\"><h3>Step 27</h3><p>Verify there are no water leaks at the sensors.</p></div>"
     },
     {
     	"id": null,
         "version": null,
         "name": "Running Checks And Inspections",
         "type": "HEADER",
-        "details": "<h3>Text Image Text Image</h3>
+        "details": "<h3>Running Checks And Inspections</h3>
         <p>Monitor the coolant sensor pressure in load test to make sure it works correctly. Monitor the WPEGILP and WPEGOTP signals in every throttle position to ensure the sensor is changing with each throttle position change.
-	    </p> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">
+	    </p> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\testimg.jpeg\">
         <p>Monitor the coolant sensor pressure in load test to make sure it works correctly. Monitor the WPEGILP and WPEGOTP signals in every throttle position to ensure the sensor is changing with each throttle position change.
-	    </p>
-	    <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\testimg.jpeg\">"
+	    </p>"
 	},
 	{
     	"id": null,
         "version": null,
         "name": "Running Checks And Inspections",
         "type": "HEADER",
-        "details": "<h3>Image Image Text</h3>
-        <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\testimg.jpeg\">
-         <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">
-        <p>Monitor the coolant sensor pressure in load test to make sure it works correctly. Monitor the WPEGILP and WPEGOTP signals in every throttle position to ensure the sensor is changing with each throttle position change.
-	    </p>
-	    "
-        },
-        {
-    	"id": null,
-        "version": null,
-        "name": "Running Checks And Inspections",
-        "type": "HEADER",
-        "details": "<h3>Image Image Text Image</h3> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">
-	    <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\testimg.jpeg\">
+        "details": "<h3>Running Checks And Inspections</h3> <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\testimg.jpeg\">
 	    <p>Monitor the coolant sensor pressure in load test to make sure it works correctly. Monitor the WPEGILP and WPEGOTP signals in every throttle position to ensure the sensor is changing with each throttle position change.
-	    </p>
-	    <img alt=\"\" src=\"C:\\Dev\\test\\PDFConversion\\panda.jpeg\">"
-        }
+	    </p>"
+    }
   ]
 }
